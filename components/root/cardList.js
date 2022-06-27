@@ -29,10 +29,6 @@ export const CardList = () => {
         window.location.hash = "tags=" + listItems.join(",");
     }, [listItems])
 
-    useEffect(() => {
-        console.log(openSnackBar);
-    }, [openSnackBar])
-
     const onInputChanged = (e) => {
         setInputValue(e.target.value)
     };
