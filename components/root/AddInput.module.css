@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_btn {
+    width: 85%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.add_input {
+    width: 85%;
+    height: auto;
+}
